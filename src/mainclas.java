@@ -33,7 +33,7 @@ public class mainclas {
             }
             System.out.println("That's X please");
             responce3 = thisscan.nextLine();
-            if(responce3.equals("Could I have cashback?"))
+            if(responce3.equals("Can I have cashback?"))
             {
                 System.out.println("Yeah sure, how much?");
                 responce4 = thisscan.nextDouble();
@@ -52,5 +52,6 @@ public class mainclas {
             {
 
             }
+            System.out.println("Have a nice day\nHand them receipt");
         }
 }
