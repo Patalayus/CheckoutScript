@@ -13,7 +13,7 @@ public class mainclas {
             System.out.println("Hi there, do you want bags?");
             responce = thisscan.nextLine();
             if(responce.equals("yes")){
-                System.out.println("Getting bags...");
+                System.out.println("[GET BAGS]");
             }else{
                 System.out.println("Don't get bags...");
             }
@@ -46,7 +46,8 @@ public class mainclas {
             }
             else if(responce3.equals("Can I put some on my card and some in cash?"))
             {
-
+                System.out.println("Of course, please insert your card\nPress partial payment on till" +
+                        "\nnow please give the remaining balance\n[put cash in till]");
             }
             else if(responce3.equals(""))
             {
